@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap');
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+    margin: 7vw;
+}
+
+.title{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin: 5vw;
+    text-shadow: 1px 1px 1px royalblue;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+    margin: 70px;
+    text-indent: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+.Jung{
+    text-align: right;
+    text-shadow: 1px 1px 1px greenyellow;
+    margin-right: 13%
+}
+
+body{
+    background-color: burlywood;
+}
+.quote{
+    border: .47vw solid black;
+    padding: 17px;
+    text-align: center;
+}
+header{
+    overflow: auto;
+    width: 100%;
+    background-color: mediumaquamarine;
+    position: fixed;
+    top: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pagelink{
+    float: right;
+    padding: 6px;
+}
+.pagelink > a{
+    border: 1px solid black;
+    padding: 3px;
+    background-color: grey;
+}
+.name{
+    margin: 6%;
+}
+.subtitles{
+    font-family: 'Maven Pro', sans-serif;
+    display: block;
+    text-shadow: 1px 1px 1px forestgreen;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background-color: mediumaquamarine;
+}
+
+main{
+    margin: 0 auto;
+    margin-top: 25%;
+    margin-bottom: 10%;
+}
+
+.aboutp{
+    overflow: auto;
+    font-size: large;
+}
+.gamingpic{
+    margin-left: 25%;
+    width: 50vw;
+}
+.jungpic{
+    margin-left: 25%;
+    width: 50vw;
+}
+.jindopic{
+    margin-left: 25%;
+    width: 50vw;
+}
+.pagelink > a:hover{
+    background-color: coral;
+}
+.socialpic{
+    width: 50px;
+    margin: 13px;
+}
+.active{
+    border-bottom: 5px solid black;
+}
+.homepic2{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 10%;
+    width: 47%;
+}
+.projects{
+    border: 2px solid black;
+    margin: 28px;
+    box-shadow: 4px -7px 3px mediumspringgreen;
+}
