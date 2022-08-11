@@ -7,36 +7,32 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <header>
+        <section class="navbar">
             <h1 class="name">Sam Bowers</h1>
-            <h2 id="pages">
+            <div id="header-link-container">
                 <nav class="pagelink">
-                    <a class="active" href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
+                    <a class="header-link" href="index.html">Home</a>
+                    <a class="header-link" href="about.html">About</a>
+                    <a class="header-link" href="portfolio.html">Portfolio</a>
                 </nav>
-            </h2>
-        </header>
+            </div>
+        </section>
         <main class="mainhome">
-            <h1 class="title">Gamer and soon to be developer</h1>
-            <p>With this bootcamp I have two goals. The first goal is to learn web design so that I can find a good career that will pay the bills. The second is to gain a general understanding of coding so that I can go on to teach myself other languages and one day work in video game development, even if only on an indie game as a hobby.</p>
+            <h1 class="title">Developer (version 2.0 coming soon)</h1>
+            <p>At Fullstack Acadamy I was able to learn very much about web development in just around six months time. I'm very grateful I was able to take part in this course and can't wait to find a job in the field and continue learning.</p>
             <h2 class="quote">Your vision will become clear only when you can look into your own heart. Who looks outside, dreams; who looks inside, awakes.</h2>
             <h2 class="Jung">- Carl Jung</h2>
-            <img class="homepic2" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-9/184244093_10223031042037252_9060894777422153491_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=TiqyFg0Kd9AAX_Kfmmr&_nc_ht=scontent-iad3-1.xx&oh=00_AT-WIErgx0OU66D3v_yRPavKvWsCFwBUrA92xVBOqDTdrw&oe=6237D093">
+            <img class="homepic2" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.6435-9/184244093_10223031042037252_9060894777422153491_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Yr3mDuF3iLAAX_fLrPF&_nc_ht=scontent-iad3-1.xx&oh=00_AT8d21Ow8JKxymeLwdOGD9QH2lDtecZSLkIOge8m7y1c1g&oe=63194113">
         </main>
         <footer>
             <nav class="social">
-                <a class="snapchat" href="https://www.snapchat.com/add/beazysosteezy?sender_web_id=cb390e21-55f2-4053-aa4c-a2eeefe1aa28&device_type=desktop&is_copy_url=true">
-                    <img class="socialpic" src="data:image/png;base64,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">
+                <a href='https://www.linkedin.com/in/sambowers047/'>
+                    <img class='social-pic' src='https://www.freepnglogos.com/uploads/linkedin-blue-style-logo-png-0.png'/>
                 </a>
-                <a class="instagram" href="https://www.instagram.com/sambeazy47/">
-                    <img class="socialpic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png">
-                </a>
-                <a class="facebook" href="https://www.facebook.com/sam.bowers.31/">
-                    <img class="socialpic" src="https://cdn1.vectorstock.com/i/1000x1000/79/75/facebook-logo-icon-vector-29227975.jpg">
+                <a href='https://github.com/SamBowers047'>
+                    <img class='social-pic' src='https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-github-icon-35.png'/>
                 </a>
             </nav>
-            
         </footer>
     </body>
 </html>
